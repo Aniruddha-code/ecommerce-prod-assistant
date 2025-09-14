@@ -87,7 +87,7 @@ class Retriever:
     
 if __name__=='__main__':
     retriever_obj = Retriever()
-    user_query = "Can you suggest good budget laptops?"
+    user_query = "Can you suggest good budget iPhone?"
     results = retriever_obj.call_retriever(user_query)
 
     for idx, doc in enumerate(results, 1):
