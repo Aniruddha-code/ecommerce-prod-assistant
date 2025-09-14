@@ -3,9 +3,9 @@ requires = ["setuptools>=68"]         # PEP 660 editable support ke liye naya se
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ecomm-prod-assistant"
+name = "ecommerce-prod-assistant"
 version = "0.1.0"
-description = "Add your description here"
+description = "This is the ecommerce project design"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
