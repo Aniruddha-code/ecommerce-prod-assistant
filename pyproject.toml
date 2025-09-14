@@ -18,12 +18,12 @@ dependencies = [
 ]
 
 # Optional: authors, license
-authors = [{ name = "Sunny Savita" }]
+authors = [{ name = "Aniruddha Mohanty" }]
 license = { text = "Proprietary" }
 
 # Optional: CLI command (python -m pip install -e . ke baad yeh create hoga)
 [project.scripts]
-ecomm-assistant = "ecomm_prod_assistant.cli:main"
+ecomm-assistant = "ecommerce_prod_assistant.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["prod_assistant"]
