@@ -1,3 +1,4 @@
+
 from mcp.server.fastmcp import FastMCP
 from retriever.retrieval import Retriever  
 from langchain_community.tools import DuckDuckGoSearchRun
@@ -52,4 +53,5 @@ async def web_search(query: str) -> str:
 
 # ---------- Run Server ----------
 if __name__ == "__main__":
-    mcp.run(transport="stdio")
+    #mcp.run(transport="stdio")
+    mcp.run(transport="streamable-http")
